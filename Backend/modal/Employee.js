@@ -1,0 +1,8 @@
+const mongoose = require("mongoose");
+const EmpSchema = new mongoose.schema({
+  empId: String,
+  empName: String,
+  empSkills: String,
+});
+
+module.exports = mongoose.model("Employee", EmpSchema);
