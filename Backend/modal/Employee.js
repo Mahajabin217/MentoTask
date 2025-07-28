@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const EmpSchema = new mongoose.schema({
+const EmpSchema = new mongoose.Schema({
   empId: String,
   empName: String,
   empSkills: String,
